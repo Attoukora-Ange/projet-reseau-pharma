@@ -1,0 +1,6 @@
+.page-accueil{
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    gap: 1rem;
+    padding: 1rem .5rem;
+}

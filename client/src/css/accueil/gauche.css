@@ -1,0 +1,311 @@
+
+.profil{
+    width: 100%;
+    padding: .5rem;
+    color: #fff;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    margin: .5rem;
+    /* background-color: rgba(36, 36, 199, 0.758); */
+}
+
+.profil .profil-couverture .couverture{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.profil .profil-couverture .couverture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.profil .image-profil{
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 15rem;
+   height: 15rem;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.profil .profil-couverture .image-profil{
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 0px 0px 2px 1px black;
+}
+.profil .profil-couverture .image-profil img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+
+.denomination-profil{
+   text-align: center;
+   padding: .5rem 0;
+   width: 50%;
+   margin: auto;
+}
+.denomination-profil .denomination-profil-nom{
+   text-align: center;
+   font-size: 1.6rem;
+   padding: .5rem 0;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: black;
+}
+.denomination-profil .denomination-profil-profession{
+   text-align: center;
+   font-size: 1.4rem;
+   text-transform: capitalize;
+   color: black;
+}
+.info-profil .information-profil{
+    margin: .5rem;
+    width: 100%;
+    padding: .5rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+}
+.info-profil .info-profil-texte{
+   padding: 1rem .5rem;
+   text-align: center;
+   font-size: 1rem;
+   text-transform: uppercase;
+   color: blue;
+   font-weight: 700;
+}
+.info-profil .information-profil .information-profil-date,
+.info-profil .information-profil-ville-actuelle,
+.info-profil .information-profil-numero{
+   font-size: 1.5rem;
+    padding: .5rem 0;
+    text-align: center;
+}
+.info-profil .information-profil-ville-actuelle span{
+   font-size: 1.5rem;
+    padding: .5rem 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ************************************** */
+.cadre{
+    margin: .5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: .5rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+}
+.cadre .cadre-gauche{
+    text-align: center;
+}
+.cadre .cadre-gauche::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: .1rem;
+    height: 80%;
+    background-color: black;
+}
+.cadre .cadre-gauche .nombre-amis{
+    font-size: 1.9rem;
+}
+.cadre .cadre-gauche .amis{
+    font-size: 1.3rem;
+}
+.cadre .cadre-droite{
+    text-align: center;
+}
+.cadre .cadre-droite .nombre-abonne{
+    font-size: 1.9rem;
+}
+.cadre .cadre-droite .abonne{
+    font-size: 1.3rem;
+}
+
+
+/* ******************************** */
+.gauche-liste-amis{
+    width: 100%;
+    max-height: 32rem;
+    margin: .5rem;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+    overflow-y: scroll;
+}
+
+.gauche-liste-amis::-webkit-scrollbar {
+    width: 5px;
+  }
+.gauche-liste-amis::-webkit-scrollbar-track {
+    background: #fff;
+  }
+.gauche-liste-amis::-webkit-scrollbar-thumb{
+    background: #3b5998;
+  }
+.gauche-liste-amis::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.gauche-liste-amis .liste-amis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+.gauche-liste-amis .liste-amis .liste-amis-button button{
+    padding: .5rem 1rem;
+    background-color: #c32aa3;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c32aa3;
+    cursor: pointer;
+    transition: all .3s;
+}
+.gauche-liste-amis .liste-amis .liste-amis-button button:hover{
+    background-color: #fff;
+    border: 1px solid #c32aa3;
+    color: #c32aa3;
+}
+.gauche-liste-amis .liste-amis .liste-amis-image {
+    height: 4rem;
+    width: 4rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.gauche-liste-amis .liste-amis .liste-amis-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gauche-liste-amis .liste-amis .liste-image-nom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.gauche-liste-amis .liste-amis .liste-amis-nom {
+    font-size: 1.4rem;
+   cursor: pointer;
+   text-transform: capitalize;
+}
+
+
+.mes-amis-texte{
+    padding: 1rem .5rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 700;  
+}
+/* ************************************ */
+
+.gauche-liste-suivie{
+    width: 100%;
+    max-height: 32rem;
+    margin: .5rem;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+    overflow-y: scroll;
+}
+
+.gauche-liste-suivie::-webkit-scrollbar {
+    width: 5px;
+  }
+.gauche-liste-suivie::-webkit-scrollbar-track {
+    background: #fff;
+  }
+.gauche-liste-suivie::-webkit-scrollbar-thumb{
+    background: #3b5998;
+  }
+.gauche-liste-suivie::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.gauche-liste-suivie .liste-suivie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+.gauche-liste-suivie .liste-suivie .liste-suivie-button button{
+    padding: .5rem 1rem;
+    background-color: #c32aa3;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c32aa3;
+    cursor: pointer;
+    transition: all .3s;
+}
+.gauche-liste-suivie .liste-suivie .liste-suivie-button button:hover{
+    background-color: #fff;
+    border: 1px solid #c32aa3;
+    color: #c32aa3;
+}
+.gauche-liste-suivie .liste-suivie .liste-suivie-image {
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.gauche-liste-suivie .liste-suivie .liste-suivie-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gauche-liste-suivie .liste-suivie .liste-image-nom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.gauche-liste-suivie .liste-suivie .liste-suivie-nom {
+    font-size: 1.4rem;
+   cursor: pointer;
+   text-transform: capitalize;
+}
+
+
+.mes-suivie-texte{
+    padding: 1rem .5rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 700;  
+}
+
+
+
+
+@media screen and (max-width : 1000px) {
+    .profil .image-profil{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        overflow: hidden;
+     }
+}

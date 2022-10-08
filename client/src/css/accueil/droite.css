@@ -1,0 +1,315 @@
+
+.droite-liste-suggestion{
+    width: 100%;
+    max-height: 32rem;
+    padding: .5rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+    overflow: scroll;
+}
+
+.droite-liste-suggestion::-webkit-scrollbar {
+    width: 5px;
+  }
+.droite-liste-suggestion::-webkit-scrollbar-track {
+    background: #fff;
+  }
+.droite-liste-suggestion::-webkit-scrollbar-thumb{
+    background: #3b5998;
+  }
+.droite-liste-suggestion::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.droite-liste-suggestion .liste-suggestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin: .5rem 0;
+}
+.liste-suggestion-image-nom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-image {
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-nom {
+   font-size: 1.4rem;
+   cursor: pointer;
+   text-transform: capitalize
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-button button {
+   padding: .5rem 1rem;
+   margin: 0 .5rem;
+   border-radius: 5px;
+   outline: none;
+   cursor: pointer;
+   transition: all .3s;
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-button button.ajouter {
+   background-color: #3b5998;
+   color: #fff;
+   border: 1px solid #3b5998;
+   margin: .1rem;
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-button button.ajouter:hover {
+   background-color: #fff;
+   border: 1px solid #3b5998;
+   color: #3b5998;  
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-button button.annuler {
+   background-color: #c32aa3;;
+   color: #fff;
+   border: 1px solid #c32aa3;;
+   margin: .1rem;
+}
+.droite-liste-suggestion .liste-suggestion .liste-suggestion-button button.annuler:hover {
+   background-color: #fff;
+   border: 1px solid #c32aa3;;
+   color: #c32aa3;;  
+}
+
+.suggestion-mes-amis-texte{
+    padding: 1rem .5rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 700;  
+}
+.suggestion-liste-amis-cadre{
+    width: 95%;
+    /* margin: auto;  */
+}
+
+.cardre-voir-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardre-voir-plus .voir-plus{
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: #3b5998;
+   color: #fff;
+   border: 1px solid #3b5998;
+}
+.cardre-voir-plus .voir-plus:hover{
+    background-color: #fff;
+    border: 1px solid #3b5998;
+    color: #3b5998; 
+}
+
+/* ********************************** */
+.droite-liste-abonne{
+    width: 100%;
+    max-height: 34rem;
+    padding: .5rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+    overflow-y: scroll;
+}
+.droite-liste-abonne::-webkit-scrollbar {
+    width: 5px;
+  }
+.droite-liste-abonne::-webkit-scrollbar-track {
+    background: #fff;
+  }
+.droite-liste-abonne::-webkit-scrollbar-thumb{
+    background: #3b5998;
+  }
+.droite-liste-abonne::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.droite-liste-abonne .liste-abonne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin: .5rem 0;
+}
+
+.liste-abonne-image-nom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-image {
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-nom {
+   font-size: 1.4rem;
+   cursor: pointer;
+   text-transform: capitalize;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-button button {
+   padding: .5rem 1rem;
+   margin: 0 .5rem;
+   border-radius: 5px;
+   outline: none;
+   cursor: pointer;
+   transition: all .3s;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-button button.ajouter {
+   background-color: #3b5998;
+   color: #fff;
+   border: 1px solid #3b5998;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-button button.ajouter:hover {
+   background-color: #fff;
+   border: 1px solid #3b5998;
+   color: #3b5998;  
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-button button.annuler {
+   background-color: #c32aa3;;
+   color: #fff;
+   border: 1px solid #c32aa3;;
+}
+.droite-liste-abonne .liste-abonne .liste-abonne-button button.annuler:hover {
+   background-color: #fff;
+   border: 1px solid #c32aa3;;
+   color: #c32aa3;;  
+}
+
+.abonne-mes-amis-texte{
+    padding: 1rem .5rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 700;  
+}
+.abonne-liste-amis-cadre{
+    width: 95%;
+    /* margin: auto;  */
+}
+
+/* ************************************* */
+.droite-liste-membre{
+    width: 100%;
+    max-height: 32rem;
+    padding: .5rem;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+    overflow-y: scroll;
+}
+.droite-liste-membre::-webkit-scrollbar {
+    width: 5px;
+  }
+.droite-liste-membre::-webkit-scrollbar-track {
+    background: #fff;
+  }
+.droite-liste-membre::-webkit-scrollbar-thumb{
+    background: #3b5998;
+  }
+.droite-liste-membre::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: all-scroll;
+  }
+.droite-liste-membre .liste-membre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin: .5rem 0;
+}
+.liste-membre-image-nom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.droite-liste-membre .liste-membre .liste-membre-image {
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.droite-liste-membre .liste-membre .liste-membre-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.droite-liste-membre .liste-membre .liste-membre-nom {
+   font-size: 1.4rem;
+   cursor: pointer;
+   text-transform: capitalize;
+}
+.droite-liste-membre .liste-membre .liste-membre-button button {
+   padding: .5rem 1rem;
+   margin: 0 .5rem;
+   border-radius: 5px;
+   outline: none;
+   cursor: pointer;
+   transition: all .3s;
+}
+.droite-liste-membre .liste-membre .liste-membre-button button.ajouter {
+   background-color: #3b5998;
+   color: #fff;
+   border: 1px solid #3b5998;
+   margin: .1rem;
+}
+.droite-liste-membre .liste-membre .liste-membre-button button.ajouter:hover {
+   background-color: #fff;
+   color: #3b5998;
+}
+.droite-liste-membre .liste-membre .liste-membre-button button.supprimer {
+    background-color: #c32aa3;
+    color: #fff;
+    border: 1px solid #c32aa3; 
+}
+.droite-liste-membre .liste-membre .liste-membre-button button.supprimer:hover {
+    background-color: #fff;
+    border: 1px solid #c32aa3;
+    color: #c32aa3; 
+}
+.droite-liste-membre .liste-membre .liste-membre-button button.annuler {
+   background-color: #c32aa3;
+   color: #fff;
+   border: 1px solid #c32aa3;
+}
+.droite-liste-membre .liste-membre .liste-membre-button button.annuler:hover {
+   background-color: #fff;
+   border: 1px solid #c32aa3;
+   color: #c32aa3;  
+}
+
+.membre-mes-amis-texte{
+    padding: 1rem .5rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 700;  
+}
+.membre-liste-amis-cadre{
+    width: 95%;
+    /* margin: auto;  */
+}
+

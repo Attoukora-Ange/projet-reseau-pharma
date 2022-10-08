@@ -1,0 +1,828 @@
+.milieu-haut{
+    width: 100%;
+    padding: 1rem;
+}
+.milieu-haut .milieu-haut-photo-input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.milieu-haut .milieu-haut-photo-input .milieu-haut-photo{
+   width: 4rem;
+   height: 4rem;
+   overflow: hidden; 
+   border-radius: 50%;
+}
+.milieu-haut .milieu-haut-photo-input .milieu-haut-photo img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   cursor: pointer;
+}
+.milieu-haut .milieu-haut-photo-input .milieu-haut-input{
+   width: 100%;
+   height: 100%;
+}
+.milieu-haut .milieu-haut-photo-input .milieu-haut-input input{
+   padding: .5rem;
+   width: 100%;
+   outline: none;
+   font-size: 1.3rem;
+}
+.cadre-photo{
+    margin-top: 1rem 0;
+    padding: 1rem;
+}
+.cadre-photo .cadre-photo-contenue{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-photo .cadre-photo-contenue-icone-photo-texte,
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-envoie .cadre-photo-contenue-icone-envoie-texte{
+  font-size: 1.4rem;
+  
+ 
+}
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-photo ,
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-envoie{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 	1rem;
+}
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-photo svg,
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-envoie svg{
+  font-size: 3rem;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-photo svg:hover{
+  color: #3b5987;
+}
+
+.cadre-photo .cadre-photo-contenue .cadre-photo-contenue-icone-envoie svg:hover{
+  color: #41873b;
+}
+.cadre-poste{
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #3b5998;
+    margin: 1rem 0;
+}
+.cadre-poste .cardre-poste-gauche-droite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cadre-poste .cardre-poste-gauche-droite .cardre-contenue-droite svg{
+  font-size: 2rem;
+   color: #fff;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+.cadre-poste .cardre-poste-gauche-droite .cardre-contenue-droite svg:hover{
+  color: #903a4b;
+}
+.cadre-poste .cadre-poste-contenue{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.cadre-poste .cadre-poste-contenue .cadre-poste-contenue-image{
+   width: 4rem;
+   height: 4rem;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.cadre-poste .cadre-poste-contenue .cadre-poste-contenue-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.cadre-poste .cadre-poste-contenue .cadre-poste-contenue-utilisateur .cadre-poste-contenue-utilisateur-nom{
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: .5rem 0;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.cadre-poste .cadre-poste-contenue .cadre-poste-contenue-utilisateur-date-poste{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #fff;
+}
+.cadre-poste .poste-information .poste-information-texte .text-long-contenue span{
+  cursor: pointer;
+}
+.cadre-poste .poste-information .poste-information-texte .text-long-contenue,
+.cadre-poste .poste-information .poste-information-texte .text-long-contenue span,
+.cadre-poste .poste-information .poste-information-texte .text-court-contenue{
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1rem;
+  color: #fff;
+}
+.cadre-poste .poste-information .poste-information-image{
+  /* height: 80%; */
+  width: 100%;
+  overflow: hidden;
+}
+.cadre-poste .poste-information .poste-information-image img{
+  /* height: 100%; */
+  width: 100%;
+  object-fit: cover;
+}
+.cardre-reaction-poste{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardre-reaction-poste .coeur {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: .5rem;
+}
+.cardre-reaction-poste .commentaire {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: .5rem;
+}
+.cardre-reaction-poste .coeur .nombre-coeur,
+.cardre-reaction-poste .commentaire .nombre-commentaire{
+    font-size: 1.3rem;
+    color: #fff;
+}
+.cardre-reaction-poste .coeur .coeur-poste svg{
+    cursor: pointer;
+   font-size: 2rem;
+   color: red;
+}
+.cardre-reaction-poste .commentaire .commentaire-poste svg{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+.bas-commentaire-texare-envoie .commentaire-utilisateure-bas{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 1rem; */
+}
+.bas-commentaire-texare-envoie .commentaire-utilisateure-bas .envoie-commentaire svg{
+    font-size: 3rem;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.bas-commentaire-texare-envoie .commentaire-utilisateure-bas .envoie-commentaire svg:hover{
+    color: rgba(255, 255, 255, 0.516);
+}
+.bas-commentaire-texare-envoie .commentaire-utilisateure-bas .commentaire-textarea{
+   width: 90%;
+}
+.bas-commentaire-texare-envoie .commentaire-utilisateure-bas .commentaire-textarea textarea{
+   width: 100%;
+   height: 8rem;
+   resize: none;
+   outline: none;
+   padding: 1rem;
+   font-size: 1.4rem;
+   border-radius: 1rem;
+   margin-top: 1rem;
+}
+.bas-commentaire{
+   max-height: 25rem;
+   overflow-y: scroll;
+}
+
+
+.bas-commentaire::-webkit-scrollbar {
+  width: 7px;
+}
+.bas-commentaire::-webkit-scrollbar-track {
+  background: #fff;
+}
+.bas-commentaire::-webkit-scrollbar-thumb{
+  background: #647eb4;
+}
+.bas-commentaire::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.bas-commentaire .texte-commentaire-utilisateur{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.bas-commentaire .texte-commentaire-utilisateur .utilisateur-commentaire{
+ height: 4rem;
+ width: 4rem;
+ border-radius: 50%;
+ overflow: hidden;
+}
+.bas-commentaire .texte-commentaire-utilisateur .utilisateur-commentaire img{
+ height: 100%;
+ width: 100%;
+object-fit: cover;
+}
+.bas-commentaire .utilisateur-commentaire-texte{
+ background-color: #fff;
+ padding: 1rem;
+ margin-top: 1rem;
+ border-radius: 10px;
+ width: 100%;
+}
+.bas-commentaire .utilisateur-commentaire-texte .utilisateur-commentaire-texte-supprimer{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.bas-commentaire .utilisateur-commentaire-texte .utilisateur-commentaire-texte-supprimer .utilisateur-commenatire-supprimer svg{
+ color: #060b12;
+ font-size: 1.3rem;
+ transition: all .3s ease-in-out;
+ cursor: pointer;
+}
+.bas-commentaire .utilisateur-commentaire-texte .utilisateur-commentaire-texte-supprimer .utilisateur-commenatire-supprimer svg:hover{
+ color: #903a4b;
+}
+.bas-commentaire .utilisateur-commentaire-texte .utilisateur-commenatire-nom{
+font-size: 1.3rem;
+padding-bottom: 1rem;
+color: #3b5987;
+font-weight: 700;
+cursor: pointer;
+width: 25%;
+overflow: hidden;
+text-transform: capitalize;
+cursor: pointer;
+transition: color .3s ease-in-out;
+}
+.bas-commentaire .utilisateur-commentaire-texte .utilisateur-commenatire-nom:hover{
+color: #161a1f;
+
+}
+.bas-commentaire .utilisateur-commentaire-texte .utilisateur-commenatire-post{
+font-size: 1.3rem;
+}
+
+/* ************************************************* */
+.cadre-vue{
+  width: 100%;
+  background-color: #3b5987;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 1.5rem;
+}
+.cadre-vue .fermerture-icone-vue{
+ display: flex;
+ justify-content: flex-end;
+}
+.cadre-vue .fermerture-icone-vue svg{
+color: #fff;
+font-size: 2rem;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+.cadre-vue .fermerture-icone-vue svg:hover{
+color: #903a4b;
+}
+.cadre-vue .cadre-vue-image{
+  width: 80%;
+  margin: 0 auto;
+}
+.cadre-vue .cadre-vue-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* *************************************** */
+.profil-milieu{
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #3b5987;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.profil-milieu .profil-milieu-contenue{
+  width: 100%;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-titre{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  color: #3b5987;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre{
+  width: 100%;
+  
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image{
+  width: 100%;
+  position: relative;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture{
+  width: 100%;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture .profil-milieu-contenue-cadre-image-couverture-image,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-photo .profil-milieu-contenue-cadre-image-photo-input-file{
+  display: none;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture .profil-milieu-contenue-cadre-couverture-image-file{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+.profil-milieu .profil-milieu-contenue-cadre-image-photo .profil-milieu-contenue-cadre-image-photo-file{
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px 3px  #3b5987;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-photo .profil-milieu-contenue-cadre-image-photo-file img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture .profil-milieu-contenue-cadre-couverture-image-file img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information{
+  width: 100%;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information{
+  width: 100%;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale-gauche-droite{
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ gap: 1rem;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-titre{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #0d29fd;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale{
+  width: 100%;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-nom,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-prenom,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-matrimoniale,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-naissance,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-numero,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-email,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-ville,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-profession,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-parent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-nom-label,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-prenom-label,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-matrimoniale-label,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-profession-label,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-parent-label{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #060b12;
+ 
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-email-label svg,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-numero-label svg,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-naissance-label svg,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-ville-label svg{
+  font-size: 1.5rem;
+  color: #0d29fd;
+  display: flex;
+  align-items: center;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-nom-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-prenom-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-matrimoniale-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-naissance-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-numero-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-ville-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-profession-contenue,
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-parent-contenue{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #060b12;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-email-contenue{
+  font-size: 1.3rem;
+  text-transform: lowercase;
+  color: #3b5998;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-button button{
+ padding: .5rem 1rem;
+ background-color: #3b5998;
+ color: #fff;
+ border-radius: 1rem;
+ border: 1px solid #3b5987;
+ font-size: 1.3rem;
+ cursor: pointer;
+ transition: all .3s ease-in-out;
+}
+.profil-milieu .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-button button:hover{
+ background-color: #fff;
+ color: #3b5998;
+}
+/* **************************************************** */
+.modifier-profil{
+  padding: 1rem;
+  border: 1px solid #3b5987;
+  border-radius: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.modifier-profil .modifier-profil-cadre{
+  width: 100%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue{
+  width: 100%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form{
+  width: 100%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-form-texte{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #0d29fd;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information{
+  width: 100%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite{
+  width: 100%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-nom,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-prenom,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-situation,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-profession,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-parent,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-naissance,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-telephone,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-email,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-ville{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  padding: .5rem 0;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-nom .modifier-profil-cadre-contenue-information-nom-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-prenom .modifier-profil-cadre-contenue-information-prenom-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-situation .modifier-profil-cadre-contenue-information-situation-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-profession .modifier-profil-cadre-contenue-information-profession-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-parent .modifier-profil-cadre-contenue-information-parent-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-naissance .modifier-profil-cadre-contenue-information-naissance-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-telephone .modifier-profil-cadre-contenue-information-telephone-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-email .modifier-profil-cadre-contenue-information-email-label,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-ville .modifier-profil-cadre-contenue-information-ville-label{
+ width: 30%;
+ font-size: 1.3rem;
+ text-transform: capitalize;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-nom .modifier-profil-cadre-contenue-information-nom-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-prenom .modifier-profil-cadre-contenue-information-prenom-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-situation .modifier-profil-cadre-contenue-information-situation-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-profession .modifier-profil-cadre-contenue-information-profession-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-parent .modifier-profil-cadre-contenue-information-parent-input{
+ width: 65%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-naissance .modifier-profil-cadre-contenue-information-naissance-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-telephone .modifier-profil-cadre-contenue-information-telephone-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-email .modifier-profil-cadre-contenue-information-email-input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-ville .modifier-profil-cadre-contenue-information-ville-input{
+ width: 65%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-nom .modifier-profil-cadre-contenue-information-nom-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-prenom .modifier-profil-cadre-contenue-information-prenom-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-situation .modifier-profil-cadre-contenue-information-situation-input select,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-profession .modifier-profil-cadre-contenue-information-profession-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-gauche .modifier-profil-cadre-contenue-information-parent .modifier-profil-cadre-contenue-information-parent-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-naissance .modifier-profil-cadre-contenue-information-naissance-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-telephone .modifier-profil-cadre-contenue-information-telephone-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-email .modifier-profil-cadre-contenue-information-email-input input,
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .modifier-profil-cadre-contenue-information .modifier-profil-cadre-contenue-information-generale-gauche-droite .modifier-profil-cadre-contenue-information-generale-droite .modifier-profil-cadre-contenue-information-ville .modifier-profil-cadre-contenue-information-ville-input input{
+ width: auto;
+ padding: .3rem 1rem;
+ font-size: 1.1rem;
+ text-transform: uppercase;
+ outline: none;
+ width: 100%;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .formulaire-button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .formulaire-button button{
+  padding: .5rem 1rem;
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 1rem;
+  border: 1px solid #3b5987;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  margin-top: 1rem;
+}
+.modifier-profil .modifier-profil-cadre .modifier-profil-cadre-contenue form .formulaire-button button:hover{
+  background-color: #fff;
+  color: #3b5998;
+}
+
+/* **************************************************** */
+.modifier-password{
+  padding: 1rem;
+  border: 1px solid #3b5987;
+  border-radius: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.modifier-password .modifier-password-cadre{
+  width: 100%;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue{
+  width: 100%;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form{
+  width: 100%;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-form-texte{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #0d29fd;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information{
+  width: 100%;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche{
+  width: 100%;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-ancien,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-nouveau,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-confirmer{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  padding: .5rem 0;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-ancien .modifier-password-cadre-contenue-information-ancien-label,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-nouveau .modifier-password-cadre-contenue-information-nouveau-label,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-confirmer .modifier-password-cadre-contenue-information-confirmer-label{
+ width: 30%;
+ font-size: 1.3rem;
+ text-transform: capitalize;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-ancien .modifier-password-cadre-contenue-information-ancien-input,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-nouveau .modifier-password-cadre-contenue-information-nouveau-input,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-confirmer .modifier-password-cadre-contenue-information-confirmer-input{
+ width: 65%;
+}
+
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-ancien .modifier-password-cadre-contenue-information-ancien-input input,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-nouveau .modifier-password-cadre-contenue-information-nouveau-input input,
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .modifier-password-cadre-contenue-information .modifier-password-cadre-contenue-information-generale-gauche-droite .modifier-password-cadre-contenue-information-generale-gauche .modifier-password-cadre-contenue-information-confirmer .modifier-password-cadre-contenue-information-confirmer-input input{
+ width: auto;
+ padding: .3rem 1rem;
+ font-size: 1.1rem;
+ text-transform: uppercase;
+ outline: none;
+ width: 100%;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .formulaire-button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .formulaire-button button{
+  padding: .5rem 1rem;
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 1rem;
+  border: 1px solid #3b5987;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  margin-top: 1rem;
+}
+.modifier-password .modifier-password-cadre .modifier-password-cadre-contenue form .formulaire-button button:hover{
+  background-color: #fff;
+  color: #3b5998;
+}
+
+/* *************************************** */
+.profil-milieu-membre{
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #3b5987;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.profil-milieu-membre .profil-milieu-contenue{
+  width: 100%;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-titre{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  color: #3b5987;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre{
+  width: 100%;
+  
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image{
+  width: 100%;
+  position: relative;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture{
+  width: 100%;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture .profil-milieu-contenue-cadre-image-couverture-image,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-photo .profil-milieu-contenue-cadre-image-photo-input-file{
+  display: none;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture .profil-milieu-contenue-cadre-couverture-image-file{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+.profil-milieu-membre .profil-milieu-contenue-cadre-image-photo .profil-milieu-contenue-cadre-image-photo-file{
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px 3px  #3b5987;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-photo .profil-milieu-contenue-cadre-image-photo-file img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre .profil-milieu-contenue-cadre-image .profil-milieu-contenue-cadre-image-couverture .profil-milieu-contenue-cadre-couverture-image-file img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information{
+  width: 100%;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information{
+  width: 100%;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale-gauche-droite{
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ gap: 1rem;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-titre{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #0d29fd;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale{
+  width: 100%;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-nom,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-prenom,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-matrimoniale,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-naissance,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-numero,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-email,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-ville,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-profession,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-parent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-nom-label,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-prenom-label,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-matrimoniale-label,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-profession-label,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-parent-label{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #060b12;
+ 
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-email-label svg,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-numero-label svg,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-naissance-label svg,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-ville-label svg{
+  font-size: 1.5rem;
+  color: #0d29fd;
+  display: flex;
+  align-items: center;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-nom-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-prenom-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-matrimoniale-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-naissance-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-numero-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-ville-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-profession-contenue,
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-parent-contenue{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #060b12;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-generale .profil-milieu-contenue-cadre-information-generale-email-contenue{
+  font-size: 1.3rem;
+  text-transform: lowercase;
+  color: #3b5998;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-button button{
+ padding: .5rem 1rem;
+ background-color: #3b5998;
+ color: #fff;
+ border-radius: 1rem;
+ border: 1px solid #3b5987;
+ font-size: 1.3rem;
+ cursor: pointer;
+ transition: all .3s ease-in-out;
+}
+.profil-milieu-membre .profil-milieu-contenue .profil-milieu-contenue-cadre-information .profil-milieu-contenue-cadre-information-button button:hover{
+ background-color: #fff;
+ color: #3b5998;
+}
+/* **************************************************** */
+.milieu .cadre{
+  margin: 1rem 0;
+}

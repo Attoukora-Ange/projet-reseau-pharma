@@ -1,0 +1,16 @@
+export const MON_PROFIL_VISIBLE = 'mon_profil_visible';
+export const PROFIL_MEMBRE_VISIBLE = 'profil_membre_visible';
+export const CADRE_VUE_VISIBLE = 'cadre_membre_visible';
+export const CADRE_VUE_POSTE = 'cadre_vue_poste';
+export const PHOTO_CADRE_VUE_POSTE = 'photo_cadre_vue_poste';
+export const RECHERCHE_VISIBLE = 'recherche_visible';
+export const RECHERCHE_VALEUR = 'recherche_valeur';
+export const NOM_MEMBRE = 'nom_membre';
+export const PHOTO_PROFIL_UTILISATEUR = 'photo_profil_utilisateur';
+export const PHOTO_COUVERTURE_UTILISATEUR = 'photo_couverture_utilisateur';
+export const MODIFIER_PROFIL_UTILISATEUR = 'modifier_profil_utilisateur';
+export const TEXTE_POSTE = 'texte_du_poste';
+export const POST_FICHIER = 'fichier_poster';
+export const MEDIA_AFFICHAGE_GAUCHE = 'media_assichage_gauche';
+export const MEDIA_AFFICHAGE_DROIT = 'media_assichage_droit';
+export const MEDIA_AFFICHAGE_MILIEU = 'media_assichage_milieu';

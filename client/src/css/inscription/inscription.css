@@ -1,0 +1,102 @@
+.inscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.inscription form {
+   width: 50%;
+   margin:0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color: #3b5387; */
+}
+.inscription form .contenue{
+    background-color: #3b5387;
+    width: 60%;
+    border-radius: 1rem;
+   
+ } 
+.inscription form .inscription-utilisateur{
+color: #fff;
+ padding: 1rem;
+}
+.inscription form .contenue .text-incription{
+   font-size: 2rem;
+   text-transform: uppercase;
+   font-family:  sans-serif;
+   padding: 1rem;
+   text-align: center;
+   color: #fff;
+}
+.inscription form .contenue .inscription-utilisateur{
+   padding: 1rem;
+}
+.inscription form .contenue .inscription-utilisateur .nom-utilisateur,
+.inscription form .contenue .inscription-utilisateur .prenom-utilisateur,
+.inscription form .contenue .inscription-utilisateur .email-utilisateur,
+.inscription form .contenue .inscription-utilisateur .password-utilisateur,
+.inscription form .contenue .inscription-utilisateur .conf-password-utilisateur{
+  width: 100%;
+}
+.inscription form .contenue .inscription-utilisateur .nom-utilisateur .nom-label,
+.inscription form .contenue .inscription-utilisateur .prenom-utilisateur .prenom-label,
+.inscription form .contenue .inscription-utilisateur .email-utilisateur .email-label,
+.inscription form .contenue .inscription-utilisateur .password-utilisateur .password-label,
+.inscription form .contenue .inscription-utilisateur .conf-password-utilisateur .conf-password-label{
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+.inscription form .contenue .inscription-utilisateur .nom-utilisateur .nom-input,
+.inscription form .contenue .inscription-utilisateur .prenom-utilisateur .prenom-input,
+.inscription form .contenue .inscription-utilisateur .email-utilisateur .email-input,
+.inscription form .contenue .inscription-utilisateur .password-utilisateur .password-input,
+.inscription form .contenue .inscription-utilisateur .conf-pssword-utilisateur .conf-pssword-input{
+  width: 100%;
+}
+.inscription form .contenue .inscription-utilisateur .nom-utilisateur .nom-input input,
+.inscription form .contenue .inscription-utilisateur .prenom-utilisateur .prenom-input input,
+.inscription form .contenue .inscription-utilisateur .email-utilisateur .email-input input,
+.inscription form .contenue .inscription-utilisateur .password-utilisateur .password-input input,
+.inscription form .contenue .inscription-utilisateur .conf-password-utilisateur .conf-password-input input{
+  width: 100%;
+  padding: .5rem  1rem;
+  outline: none;
+  font-size: 1.3rem;
+}
+.inscription form .contenue .button{
+  width: 50%;
+  margin: 0rem auto;
+}
+.inscription form .contenue button{
+  width: 100%;
+  margin: 1rem 0;
+  padding: .5rem  1rem;
+  outline: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  transition: all .3s ease-in-out;
+}
+.inscription form .contenue button:hover{
+    background-color: #32ac32;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.inscription form .contenue .mot-passe-oublie{
+  width: 100%;
+  padding: .5rem  1rem;
+  outline: none;
+  font-size: 1.4rem;
+}
+.inscription form .contenue .mot-passe-oublie .mot-passe-oublie-texte{
+  text-align: center;
+}
+.inscription form .contenue .mot-passe-oublie .mot-passe-oublie-texte a{
+  color: #fff;
+    text-decoration: none;
+  cursor: pointer;
+}

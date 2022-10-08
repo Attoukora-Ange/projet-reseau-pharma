@@ -1,0 +1,168 @@
+.navigation-contenue{
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+.navigation{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #3b5998;
+    color: #fff;
+    height: 6rem;
+    z-index: 1000;
+}
+.navigation .navigation-gauche .logo{
+   font-size: 1.9rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   color: yellowgreen;
+   text-shadow: .5rem .5rem .5rem black;
+   cursor: pointer;
+}
+.navigation .navigation-milieu{
+    display: flex;
+    align-items: center;
+    width: 30%;  
+}
+.navigation .navigation-milieu input{
+   padding: .5rem 1rem;
+   width: 90%;
+   font-size: 1.3rem;
+   font-style: italic;
+   outline: none;
+}
+.navigation .navigation-milieu svg{
+   font-size: 2rem;
+    color: #fff;
+}
+.navigation .navigation-droite{
+    position: relative;
+}
+.navigation .navigation-droite .image-utilisateur{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem; 
+}
+.navigation .navigation-droite .image-utilisateur .image{
+ width: 30px;
+ height: 30px;  
+}
+.navigation .navigation-droite .image-utilisateur .image img{
+ width: 100%;
+ height: 100%; 
+ border-radius: 50%; 
+ object-fit: cover;
+}
+.navigation .navigation-droite .image-utilisateur .utilisateur{
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+}
+.navigation .navigation-droite .image-utilisateur .utilisateur .utilisateur-nom{
+cursor: pointer;
+text-transform: capitalize;
+font-size: 1.3rem;
+}
+.navigation .navigation-droite .image-utilisateur .utilisateur .icone{
+padding: .5rem;
+}
+.navigation .navigation-droite .image-utilisateur .utilisateur .icone svg{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navigation-droite-sous-menu{
+    display: none;
+    position: absolute;
+    width: 7rem;
+    top: 100%;
+    left: 50%;
+    box-shadow: 2px 2px 2px #3b5998;
+    transform: translateX(-25%);
+    background-color: #3b5998;
+}
+
+.sous-menu-toggle{
+    display: block;
+    z-index: 100;
+}
+.navigation-droite-sous-menu .sous-menu ul{
+   list-style: none;
+}
+.navigation-droite-sous-menu .sous-menu ul li{
+   padding: .5rem 1rem;
+   cursor: pointer;
+}
+
+/* ****************************************************** */
+.recherche{
+    width: 100%;
+    position: absolute;
+    top: 105%;
+    left: 0;
+    z-index: 1010;
+}
+.recherche .recherche-utilisateur{
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #3b5898f3;
+    border-radius: 1rem;
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+.recherche .recherche-utilisateur::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 1rem;
+  }
+.recherche .recherche-utilisateur::-webkit-scrollbar-track {
+    background: #3b5998;
+    border-radius: 1rem;
+  }
+.recherche .recherche-utilisateur::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 1rem;
+  }
+/* .recherche .recherche-utilisateur::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } */
+.recherche .recherche-utilisateur .recherche-utilisateur-profil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.516);
+    border-radius: 2rem;
+    padding: .3rem 1rem;
+}
+.recherche .recherche-utilisateur .recherche-utilisateur-profil .recherche-utilisateur-profil-image{
+   width: 3rem;
+   height: 3rem;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.recherche .recherche-utilisateur .recherche-utilisateur-profil .recherche-utilisateur-profil-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  
+}
+.recherche .recherche-utilisateur .recherche-utilisateur-profil .recherche-utilisateur-profil-identifiant{
+   width: auto;
+}
+.recherche .recherche-utilisateur .recherche-utilisateur-profil .recherche-utilisateur-profil-identifiant .recherche-utilisateur-profil-identifiant-texte{
+   font-size: 1.3rem;
+   color: #000;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+   text-transform: capitalize;
+}
+.recherche .recherche-utilisateur .recherche-utilisateur-profil .recherche-utilisateur-profil-identifiant .recherche-utilisateur-profil-identifiant-texte:hover{
+   color: #fff;
+}
